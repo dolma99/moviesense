@@ -1,7 +1,7 @@
 
 import streamlit as st
 import pandas as pd
-from utils.recommender import (
+from recommender import (
     load_data, build_similarity_matrices,
     hybrid_recommend, fetch_tmdb_details,
     get_streaming_availability
