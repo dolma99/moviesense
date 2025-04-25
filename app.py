@@ -7,6 +7,7 @@ from recommender import (
     get_streaming_availability
 )
 
+
 st.set_page_config(page_title="🎬 Smart Movie Recommender", layout="wide")
 st.title("🎬 Smart Movie Recommender System")
 
