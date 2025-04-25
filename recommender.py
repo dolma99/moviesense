@@ -3,7 +3,7 @@ import pandas as pd
 import requests
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.feature_extraction.text import TfidfVectorizer
-from justwatch import JustWatch
+#from justwatch import JustWatch
 
 TMDB_API_KEY = "5a803f3304d624203118b6f8a661c896"
 
@@ -80,5 +80,5 @@ def fetch_tmdb_details(title):
     return None
 
 def get_streaming_availability(title, country="AU"):
-    # Temporary mock to simulate availability
+    # Temporary fallback – simulate streaming availability
     return ["Netflix", "Prime Video"] if "Avengers" in title else []
